@@ -12,6 +12,63 @@
             color: rgb(255, 255, 255);
             background-color: black;
         }
+        <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: black;
+        }
+
+        header::before {
+            background: url(https://picsum.photos/seed/picsum/1800) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .navigation {
+            display: flex;
+        }
+
+        li {
+            font-family: 'Heebo', sans-serif;
+            list-style: none;
+            padding: 20px 25px;
+        }
+
+        section {
+            /* border: 2px solid green; */
+            height: 344px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5px 225px;
+            padding: 5px 15px;
+            justify-content: center;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        section h2 {
+            font-family: 'Heebo', sans-serif;
+            font-size: 2rem;
+        }
+
+        section p {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
